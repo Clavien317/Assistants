@@ -1,0 +1,217 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container_head
+{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    margin-top: -5vw;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4vw;
+    box-shadow: 0px 1px 1px 0px rgb(30, 28, 28);
+}
+
+.header .section a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.header .logo
+{
+    margin-left: 6%;
+    font-weight: 700;
+}
+
+.header .logo img
+{
+    width: 2.4vw;
+}
+
+.header .section
+{
+    display: flex;
+
+}
+
+.header .section p
+{
+    margin-right: 1vw;
+}
+
+.contenu
+{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenu .txt1
+{
+    width: 45%;
+    margin-left: 6%;
+    margin-top: 2vw;
+}
+
+.contenu .txt1 h1
+{
+    font-size: 70px;
+}
+
+.contenu .txt1 span
+{
+    color: rgb(7, 75, 112);
+}
+
+.contenu .txt1 .aide
+{
+    width: 100%;
+    margin-top: 4vw;
+}
+
+.contenu .aide a
+{
+    text-decoration: none;
+}
+
+.contenu .txt1 .aide button
+{
+    margin: 3%;
+    margin-top: 2vw;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contenu .txt1 .aide .btn-cherche
+{
+    border: 3px solid rgb(8, 99, 137);
+    width: 20%;
+    height: 3vw;
+}
+
+.contenu .txt1 .aide .btn-send
+{
+    background-color: rgb(7, 75, 112);
+    color: white;
+    border: 3px solid rgb(7, 75, 112);
+    width: 30%;
+    height: 3vw;
+}
+
+.contenu .image1 img
+{
+    width: 100%;
+    float: right;
+}
+
+.contenu .image1
+{
+    width: 60%;
+    float: right;
+}
+
+.problem
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.problem .type
+{
+    width: 28%;
+    margin: 1%;
+    height: 5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.problem .type:hover
+{
+    background-color: rgb(7, 75, 112);
+    color: white;
+}
+
+.problem .type h4
+{
+    margin-top: 6%;
+}
+
+
+.informer
+{
+    width: 88%;
+    margin-left: 6%;
+    background-color: rgb(7, 75, 112);
+    text-align: center;
+    margin-bottom: 3vw;
+    border-radius: 5px;
+    margin-top: 3vw;
+}
+
+.informer h2
+{
+    color: white;
+    margin-top: 3%;
+    font-size: 35px;
+}
+
+.informer p
+{
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+}
+
+.informer form
+{
+    margin-top: 2vw;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2vw;
+}
+
+.informer form input
+{
+    width: 60%;
+    height: 2.2vw;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+}
+
+.informer form button
+{
+    width: 30%;
+    height: 2.4vw;
+    background-color: rgb(5, 46, 68);
+    color: white;
+    border-radius: 3px;
+    border: 0;
+}
+
+.access 
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 2vw;
+}
+
+.access a
+{
+    text-decoration: none;
+    color: blue;
+}
